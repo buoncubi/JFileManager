@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="512.0">fileManagerAPI.FileReader</node>
+    <node x="0.0" y="820.0">FileManagerRunner</node>
+    <node x="19.0" y="724.0">myFileManager.Reader</node>
+    <node x="272.0" y="820.0">examples.loggerAnaliser</node>
+    <node x="760.40625" y="234.0">fileManagerAPI.LazyWriter</node>
+    <node x="99.40625" y="245.0">fileManagerAPI.CommonFileOperations</node>
+    <node x="453.5" y="0.0">fileManagerAPI.FileManager</node>
+    <node x="305.0" y="724.0">myFileManager.Writer</node>
+    <node x="266.0" y="490.0">fileManagerAPI.FileWriter</node>
+    <node x="454.40625" y="245.0">fileManagerAPI.LazyReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fileManagerAPI.LazyReader" target="fileManagerAPI.FileManager">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="fileManagerAPI.FileWriter" target="fileManagerAPI.CommonFileOperations">
+      <point x="0.0" y="-92.0" />
+      <point x="409.0" y="465.0" />
+      <point x="350.65625" y="465.0" />
+      <point x="83.75" y="92.0" />
+    </edge>
+    <edge source="myFileManager.Writer" target="fileManagerAPI.FileWriter">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="fileManagerAPI.CommonFileOperations" target="fileManagerAPI.FileManager">
+      <point x="0.0" y="-92.0" />
+      <point x="266.90625" y="209.0" />
+      <point x="501.1666666666667" y="209.0" />
+      <point x="-95.33333333333331" y="92.0" />
+    </edge>
+    <edge source="fileManagerAPI.LazyWriter" target="fileManagerAPI.FileManager">
+      <point x="0.0" y="-103.0" />
+      <point x="913.40625" y="209.0" />
+      <point x="691.8333333333333" y="209.0" />
+      <point x="95.33333333333326" y="92.0" />
+    </edge>
+    <edge source="myFileManager.Reader" target="fileManagerAPI.FileReader">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="fileManagerAPI.FileReader" target="fileManagerAPI.CommonFileOperations">
+      <point x="0.0" y="-70.0" />
+      <point x="123.0" y="465.0" />
+      <point x="183.15625" y="465.0" />
+      <point x="-83.75" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="231.5" y="599.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
